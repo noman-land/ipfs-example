@@ -6,19 +6,27 @@ This is a simple example of starting an IPFS node inside a node or browser proje
 
 1. Clone the repo:
 
+    ```
     git clone https://github.com/noman-land/ipfs-example.git;
+    ```
     
 2. Navigate to project folder:
 
+    ```
     cd ipfs-example;
+    ```
     
 3. Install dependencies:
 
+    ```
     npm install;
+    ```
     
 4. Start project:
 
+    ```
     npm start;
+    ```
     
     You will see the example json added to IPFS and the result will be logged. The hash can be tested on a public gateway to confirm that it has been added to IPFS:
     
