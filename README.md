@@ -28,6 +28,6 @@ This is a simple example of starting an IPFS node inside a node or browser proje
     npm start;
     ```
     
-5. Open browser to [http://localhost:4857/]
+5. Open browser to [http://localhost:4857/](http://localhost:4857/)
 
 6. Have fun
