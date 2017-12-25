@@ -28,6 +28,6 @@ This is a simple example of starting an IPFS node inside a node or browser proje
     npm start;
     ```
     
-    You will see the example json added to IPFS and the result will be logged. The hash can be tested on a public gateway to confirm that it has been added to IPFS:
-    
-    Navigate to https://ipfs.io/ipfs/QmcscJQoVH7jy1M3r1vZiiH7TFBdsn45Qd1VTXVqT6zWkJ
+5. Open browser to [http://localhost:4857/]
+
+6. Have fun
