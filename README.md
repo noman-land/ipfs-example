@@ -6,7 +6,7 @@ This is a simple example of starting an IPFS node inside a node or browser proje
 
 1. Clone the repo:
 
-    git clone
+    git clone https://github.com/noman-land/ipfs-example.git;
     
 2. Navigate to project folder:
 
