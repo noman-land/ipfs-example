@@ -1,0 +1,14 @@
+{
+  "name": "ipfs-example",
+  "version": "0.1.0",
+  "description": "",
+  "main": "js/server.js",
+  "scripts": {
+    "start": "node js/server.js"
+  },
+  "author": "Noman <noman@noman.land>",
+  "license": "MIT",
+  "dependencies": {
+    "ipfs": "^0.27.5"
+  }
+}
