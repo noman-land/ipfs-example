@@ -27,7 +27,6 @@ ready(() => {
   }
 
   function logSuccess([{ hash }]) {
-    console.log('\nNice! Here\'s your hash:\n', hash);
     const url = `${PUBLIC_GATEWAY}/${hash}`;
     const link = document.createElement('a');
     const span = document.createElement('span');
