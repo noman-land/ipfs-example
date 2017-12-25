@@ -1,6 +1,6 @@
 ## IPFS Example
 
-This is a simple example of starting an IPFS node inside a node or browser project. Any data added to IPFS will be retrievable from any public gateway. 
+This is a simple example of starting an IPFS node inside the browser. Any data added to IPFS will be retrievable from any public gateway. 
 
 ### Steps to run
 
