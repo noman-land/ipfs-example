@@ -11,11 +11,11 @@
   "author": "Noman <noman@noman.land>",
   "license": "MIT",
   "dependencies": {
-    "ipfs": "^0.27.5"
+    "ipfs": "^0.32.1"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.0",
+    "babel-core": "^6.26.3",
     "babel-eslint": "^8.1.0",
     "babel-loader": "^7.1.2",
     "babel-polyfill": "^6.26.0",
@@ -23,7 +23,7 @@
     "babel-preset-stage-0": "^6.24.1",
     "css-loader": "^0.28.7",
     "eslint": "^4.14.0",
-    "node-sass": "^4.7.2",
+    "node-sass": "^4.9.3",
     "path": "^0.12.7",
     "raw-loader": "^0.5.1",
     "sass": "^1.0.0-beta.4",
