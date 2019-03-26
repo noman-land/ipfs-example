@@ -16,7 +16,7 @@ function ready(fn) {
 ready(() => {
   function addText(text) {
     return new Promise((resolve, reject) => {
-      node.files.add(new Buffer(text), (error, result) => {
+      node.add(new Buffer(text), (error, result) => {
         if (error) {
           return reject(error);
         }

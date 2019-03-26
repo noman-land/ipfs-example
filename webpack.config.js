@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const config = {
+  mode: 'development',
   entry: [
     path.resolve(__dirname, 'js/main.js')
   ],
@@ -10,34 +11,40 @@ const config = {
     filename: 'main.js'
   },
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        loaders: ['babel-loader']
-      },
-      {
-        test: /\.json$/,
-        loaders: ['json-loader']
+        use: [{
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env'],
+          },
+        }],
       },
       {
         test: /\.sass$/,
-        loader: 'style-loader!css-loader!sass-loader'
+        use: ['style-loader', 'css-loader', 'sass-loader'],
       },
       {
         test: /\.css$/,
-        loader: 'style-loader!css-loader'
+        use: ['style-loader', 'css-loader'],
       },
       {
         test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-        loader: "url-loader?limit=10000&mimetype=application/font-woff"
+        use: [{
+          loader: 'url-loader',
+          options: {
+            limit: 10000,
+            mimetype: 'application/font-woff',
+          },
+        }],
       },
-
       {
         test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-        loader: "file-loader"
-      }
-    ]
+        use: ['file-loader'],
+      },
+    ],
   },
   devServer: {
     contentBase: 'static',
